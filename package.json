@@ -1,0 +1,25 @@
+{
+  "name": "trip-kitty",
+  "version": "3.0.0",
+  "private": true,
+  "description": "No-login group trip money manager: budgets, shared fund, expenses, receipts (Cloudinary), activity log and settle-up. Next.js + Neon Postgres, deploys to Vercel.",
+  "type": "module",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "db:init": "node scripts/db-init.js"
+  },
+  "engines": {
+    "node": "22.x"
+  },
+  "dependencies": {
+    "@vercel/functions": "3.10.3",
+    "cloudinary": "^2.11.0",
+    "dotenv": "^18.0.10",
+    "next": "16.4.3",
+    "pg": "^8.23.1",
+    "react": "19.3.1",
+    "react-dom": "19.3.1"
+  }
+}
